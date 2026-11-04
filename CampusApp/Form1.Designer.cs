@@ -59,7 +59,7 @@
             this.cmbPriority = new System.Windows.Forms.ComboBox();
             this.cmbStatus = new System.Windows.Forms.ComboBox();
             this.cmbSearchCategory = new System.Windows.Forms.ComboBox();
-            this.comboBox5 = new System.Windows.Forms.ComboBox();
+            this.cmbSearchStatus = new System.Windows.Forms.ComboBox();
             this.dtpDateReported = new System.Windows.Forms.DateTimePicker();
             this.dgvIssues = new System.Windows.Forms.DataGridView();
             this.groupBox1.SuspendLayout();
@@ -109,7 +109,7 @@
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.comboBox5);
+            this.groupBox2.Controls.Add(this.cmbSearchStatus);
             this.groupBox2.Controls.Add(this.cmbSearchCategory);
             this.groupBox2.Controls.Add(this.txtSearchLocation);
             this.groupBox2.Controls.Add(this.btnShowAll);
@@ -391,19 +391,19 @@
             this.cmbSearchCategory.TabIndex = 20;
             this.cmbSearchCategory.Text = "All";
             // 
-            // comboBox5
+            // cmbSearchStatus
             // 
-            this.comboBox5.FormattingEnabled = true;
-            this.comboBox5.Items.AddRange(new object[] {
+            this.cmbSearchStatus.FormattingEnabled = true;
+            this.cmbSearchStatus.Items.AddRange(new object[] {
             "All",
             "Open",
             "In Progress",
             "Resolved"});
-            this.comboBox5.Location = new System.Drawing.Point(788, 37);
-            this.comboBox5.Name = "comboBox5";
-            this.comboBox5.Size = new System.Drawing.Size(105, 28);
-            this.comboBox5.TabIndex = 21;
-            this.comboBox5.Text = "All";
+            this.cmbSearchStatus.Location = new System.Drawing.Point(788, 37);
+            this.cmbSearchStatus.Name = "cmbSearchStatus";
+            this.cmbSearchStatus.Size = new System.Drawing.Size(105, 28);
+            this.cmbSearchStatus.TabIndex = 21;
+            this.cmbSearchStatus.Text = "All";
             // 
             // dtpDateReported
             // 
@@ -477,7 +477,7 @@
         private System.Windows.Forms.Button btnUpdate;
         private System.Windows.Forms.Button btnDelete;
         private System.Windows.Forms.Button btnAdd;
-        private System.Windows.Forms.ComboBox comboBox5;
+        private System.Windows.Forms.ComboBox cmbSearchStatus;
         private System.Windows.Forms.ComboBox cmbSearchCategory;
         private System.Windows.Forms.TextBox txtSearchLocation;
         private System.Windows.Forms.Button btnShowAll;
