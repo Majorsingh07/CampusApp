@@ -153,5 +153,7 @@ namespace CampusApp
             foreach (string err in errors) msg += "• " + err + "\n";
             MessageBox.Show(msg, "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
         }
+
+ 
     }
 }
