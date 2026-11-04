@@ -122,8 +122,7 @@
             this.cmbStatus.Items.AddRange(new object[] {
             "Open",
             "In Progress",
-            "Resolved",
-            "DropDownList"});
+            "Resolved"});
             this.cmbStatus.Location = new System.Drawing.Point(749, 95);
             this.cmbStatus.Name = "cmbStatus";
             this.cmbStatus.Size = new System.Drawing.Size(268, 28);
