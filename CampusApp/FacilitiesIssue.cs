@@ -5,7 +5,7 @@ namespace CampusApp
 {
     public class FacilitiesIssue
     {
-        public int IssueId { get; set; }
+        public int IssueID { get; set; }
         public string Location { get; set; }
         public string Category { get; set; }
         public string Description { get; set; }
