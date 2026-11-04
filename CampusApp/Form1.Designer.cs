@@ -159,7 +159,7 @@
             // 
             // txtReportedBy
             // 
-            this.txtReportedBy.Location = new System.Drawing.Point(749, 129);
+            this.txtReportedBy.Location = new System.Drawing.Point(749, 132);
             this.txtReportedBy.Name = "txtReportedBy";
             this.txtReportedBy.Size = new System.Drawing.Size(268, 26);
             this.txtReportedBy.TabIndex = 18;
